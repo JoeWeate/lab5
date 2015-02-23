@@ -10,8 +10,7 @@ def load_course_database(db_name, csv_filename):
             conn = sqlite3.connect(db_name);
             with conn:
                 cur = conn.cursor();
-                
-                sql_cmd = "insert into db_name values(?,?,?,?,?,?,?)";
+                sql_cmd = "insert into coursedata values(?,?,?,?,?,?,?)";
                 cur.execute(sql_cmd, (row[0], row[1],row[2],row[3],row[4],row[5],row[6])); # value of dept used for the first ?, and courseNum for the 2nd
 
 
