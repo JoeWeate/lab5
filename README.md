@@ -1,3 +1,2 @@
 # lab5
-
-#my read me
+learning how to use githubs features.  
