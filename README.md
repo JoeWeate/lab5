@@ -1,2 +1,2 @@
 # lab5
-learning how to use githubs features.  
+learning how to store and update databases on github  
